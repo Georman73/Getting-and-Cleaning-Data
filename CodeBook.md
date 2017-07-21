@@ -35,3 +35,116 @@ Changed names as I saw appropriate
 
 5.From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
+Data- Read into R:
+
+features - Names of variables
+Labels - Labels of Activity
+subjectTrain - Subject Training Information
+yTrain - Subject Training Information
+xTrain - Training Data
+subjectTest - Subject Test Information
+yTest - Subject Test Information
+xTest - Testing Data
+
+Labels:
+
+Activity
+WALKIING
+WALKING_UPSTAIRS
+WALKING_DOWNSTAIRS
+SITTING
+STANDING
+LAYING
+
+Variables:
+
+Subject
+Activity
+TimeBodyAccelerationMean()-X
+TimeBodyAccelerationMean()-Y
+TimeBodyAccelerationMean()-Z
+TimeBodyAccelerationSTD()-X
+TimeBodyAccelerationSTD()-Y
+TimeBodyAccelerationSTD()-Z
+TimeGravityAccelerationMean()-X
+TimeGravityAccelerationMean()-Y
+TimeGravityAccelerationMean()-Z
+TimeGravityAccelerationSTD()-X
+TimeGravityAccelerationSTD()-Y
+TimeGravityAccelerationSTD()-Z
+TimeBodyAccelerationmotionMean()-X
+TimeBodyAccelerationmotionMean()-Y
+TimeBodyAccelerationmotionMean()-Z
+TimeBodyAccelerationmotionSTD()-X
+TimeBodyAccelerationmotionSTD()-Y
+TimeBodyAccelerationmotionSTD()-Z
+TimeBodyGyromotionMean()-X
+TimeBodyGyromotionMean()-Y
+TimeBodyGyromotionMean()-Z
+TimeBodyGyromotionSTD()-X
+TimeBodyGyromotionSTD()-Y
+TimeBodyGyromotionSTD()-Z
+TimeBodyGyromotionmotionMean()-X
+TimeBodyGyromotionmotionMean()-Y
+TimeBodyGyromotionmotionMean()-Z
+TimeBodyGyromotionmotionSTD()-X
+TimeBodyGyromotionmotionSTD()-Y
+TimeBodyGyromotionmotionSTD()-Z
+TimeBodyAccelerationMagnitudeMean()
+TimeBodyAccelerationMagnitudeSTD()
+TimeGravityAccelerationMagnitudeMean()
+TimeGravityAccelerationMagnitudeSTD()
+TimeBodyAccelerationmotionMagnitudeMean()
+TimeBodyAccelerationmotionMagnitudeSTD()
+TimeBodyGyromotionMagnitudeMean()
+TimeBodyGyromotionMagnitudeSTD()
+TimeBodyGyromotionmotionMagnitudeMean()
+TimeBodyGyromotionmotionMagnitudeSTD()
+FrequencyBodyAccelerationMean()-X
+FrequencyBodyAccelerationMean()-Y
+FrequencyBodyAccelerationMean()-Z
+FrequencyBodyAccelerationSTD()-X
+FrequencyBodyAccelerationSTD()-Y
+FrequencyBodyAccelerationSTD()-Z
+FrequencyBodyAccelerationMeanFreq()-X
+FrequencyBodyAccelerationMeanFreq()-Y
+FrequencyBodyAccelerationMeanFreq()-Z
+FrequencyBodyAccelerationmotionMean()-X
+FrequencyBodyAccelerationmotionMean()-Y
+FrequencyBodyAccelerationmotionMean()-Z
+FrequencyBodyAccelerationmotionSTD()-X
+FrequencyBodyAccelerationmotionSTD()-Y
+FrequencyBodyAccelerationmotionSTD()-Z
+FrequencyBodyAccelerationmotionMeanFreq()-X
+FrequencyBodyAccelerationmotionMeanFreq()-Y
+FrequencyBodyAccelerationmotionMeanFreq()-Z
+FrequencyBodyGyromotionMean()-X
+FrequencyBodyGyromotionMean()-Y
+FrequencyBodyGyromotionMean()-Z
+FrequencyBodyGyromotionSTD()-X
+FrequencyBodyGyromotionSTD()-Y
+FrequencyBodyGyromotionSTD()-Z
+FrequencyBodyGyromotionMeanFreq()-X
+FrequencyBodyGyromotionMeanFreq()-Y
+FrequencyBodyGyromotionMeanFreq()-Z
+FrequencyBodyAccelerationMagnitudeMean()
+FrequencyBodyAccelerationMagnitudeSTD()
+FrequencyBodyAccelerationMagnitudeMeanFreq()
+FrequencyBodyAccelerationmotionMagnitudeMean()
+FrequencyBodyAccelerationmotionMagnitudeSTD()
+FrequencyBodyAccelerationmotionMagnitudeMeanFreq()
+FrequencyBodyGyromotionMagnitudeMean()
+FrequencyBodyGyromotionMagnitudeSTD()
+FrequencyBodyGyromotionMagnitudeMeanFreq()
+FrequencyBodyGyromotionmotionMagnitudeMean()
+FrequencyBodyGyromotionmotionMagnitudeSTD()
+FrequencyBodyGyromotionmotionMagnitudeMeanFreq()
+Angle(tBodyAccelerationMean,Gravity)
+Angle(tBodyAccelerationmotionMean),GravityMean)
+Angle(tBodyGyromotionMean,GravityMean)
+Angle(tBodyGyromotionmotionMean,GravityMean)
+Angle(X,GravityMean)
+Angle(Y,GravityMean)
+Angle(Z,GravityMean
+
+
